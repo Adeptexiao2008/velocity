@@ -1,0 +1,46 @@
+.end{
+  &__content{
+    display: flex;
+    padding: 123px 250px 0 220px;
+    column-gap: 21px;
+
+  }
+  &__social{
+
+  }
+  &__title{
+    color: #676770;
+    @include text(400, 18px, 20px);
+  }
+  &__text{
+    color: #6A859C;
+    @include text(400, 14px, 25px);
+    padding-top: 25px;
+  }
+  &__a{
+    color: #668CAD;
+    @include text(400, 13px, 20px);
+  }
+  &__about{
+
+  }
+hr{
+  width: 300px;
+  margin: 17px 0;
+}
+  &__link{
+    padding-top: 20px;
+  }
+  &-link{
+    color: #668CAD;
+    @include text(400, 13px, 20px);
+
+  }
+  &__card{
+    padding-top: 21px;
+  }
+  &__cards{
+    display: flex;
+    column-gap: 10px;
+  }
+}

@@ -1,0 +1,16 @@
+.footer{
+  background: #192024;
+  height: 101px;
+  margin-top: 55px;
+  &__end{
+
+  }
+  &__desc{
+    color: #9E9E9E;
+    @include text(400, 15px, 20px);
+align-items: center;
+    text-align: center;
+    display: flex;
+    padding: 40px 0 0 500px;
+  }
+}

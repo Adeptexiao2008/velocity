@@ -1,0 +1,25 @@
+.header{
+
+  &__nav{
+    display: flex;
+    align-items: center;
+  }
+  &__title{
+    color: #69B9FF;
+@include text (400, 25px, 25px);
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    padding: 11px 0 24px 250px;
+  }
+  &__desc{
+    @include text(400, 15px, 20px);
+    color: #69B9FF;
+padding-left: 633px;
+  }
+  &__desc2{
+    @include text(400, 15px, 20px);
+    color: #676770;
+    padding-left: 40px;
+  }
+
+}

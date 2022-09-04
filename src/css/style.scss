@@ -1,0 +1,22 @@
+@import "mixin";
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  text-decoration: none;
+}
+ .container{
+   max-width: 1440px;
+   width: 100%;
+   font-family: 'Open Sans', sans-serif;
+ }
+
+@import "header";
+@import "velocity";
+@import "graphic";
+@import "service";
+@import "tab";
+@import "end";
+@import "footer";

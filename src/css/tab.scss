@@ -1,0 +1,56 @@
+.tab{
+  &__content{
+
+  }
+  &__top{
+
+    text-align: center;
+  }
+  &__title{
+    @include text(400, 30px, 36px);
+    color: #676770;
+  }
+  &__text{
+    @include text(400, 17px, 20px);
+    color: #8E8E9C;
+    padding-top: 17px;
+  }
+  &__btn{
+    @include text(400, 16px, 21px);
+    color: #FFFFFF;
+    border: none;
+    padding: 1px 30px;
+    background: #92A0AD;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  &__buttons{
+    margin-top: 77px;
+  }
+  &__btn1{
+    @include text(400, 16px, 21px);
+    color: #FFFFFF;
+    border: none;
+    padding: 1px 30px;
+    background: #2E80B6;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  &__img{
+    padding-top: 53px;
+  }
+  &__title2{
+    padding-top: 16px;
+    color: #676770;
+    @include text(400, 31px, 36px);
+  }
+  &__desc{
+    padding-top: 14px;
+    color: #6A859C;
+    @include text(400, 13px, 25px);
+  }
+  &__desc2{
+    @include text(400, 13px, 25px);
+    color: #6A859C;
+  }
+}

@@ -1,0 +1,39 @@
+.graphic{
+  &__cards{
+    background: #FFFFFF;
+    border: 1px solid #DCEBF7;
+    border-radius: 5px;
+   padding: 20px 20px;
+
+  }
+  &__bottom{
+    display: flex;
+    padding-top: 62px;
+    text-align: center;
+    align-items: center;
+    margin: 0 250px;
+    column-gap: 20px;
+  }
+  &__title{
+    @include text(400, 30px, 36px);
+    color: #676770;
+  }
+  &__text{
+    @include text(400, 17px, 20px);
+    color: #8E8E9C;
+    padding-top: 17px;
+
+  }
+  &__top{
+    text-align: center;
+    padding-top: 77px;
+  }
+  &__title2{
+    @include text(400, 20px, 30px);
+    color: #676770;
+  }
+  &__desc{
+    @include text(400, 14px, 25px);
+    color: #6A859C;
+  }
+}

@@ -1,0 +1,49 @@
+.service{
+   background: #192024;
+   margin: 103px 0;
+  height: 842px;
+  &__title{
+    @include text(400, 30px, 36px);
+    text-align: center;
+    padding-top: 77px;
+    color: #FFFFFF;
+    font-family: 'Open Sans', sans-serif;
+  }
+  &__text{
+    @include text(400, 17px, 20px);
+    text-align: center;
+    color: #E8E8E8;
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 17px;
+  }
+  &__title2{
+    @include text(400, 20px, 30px);
+    color: #FFFFFF;
+    font-family: 'Open Sans', sans-serif;
+    padding: 20px 0 24px;
+  }
+  &__desc{
+    @include text(400, 14px, 25px);
+    color: #FFFFFF;
+    font-family: 'Open Sans', sans-serif;
+  }
+  &__button{
+  @include text(400, 16px, 21px);
+    color: #FFFFFF;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 27px;
+    padding: 10px 31px 12px;
+    border: 1px solid #FFFFFF;
+    border-radius: 4px;
+    background: none;
+    cursor: pointer;
+  }
+  &__main{
+    display: flex;
+    padding-top: 77px;
+    column-gap: 50px;
+    text-align: center;
+margin: 0 265px 0 265px;
+  }
+
+}
